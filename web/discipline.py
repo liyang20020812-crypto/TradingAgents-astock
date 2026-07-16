@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 _ROOT = Path(__file__).resolve().parent.parent
-_LOCAL = _ROOT / ".local"
+_LOCAL = _ROOT / "data_cache" / "private_profile"
 _PROFILE = _LOCAL / "trading_profile.json"
 _JOURNAL = _LOCAL / "trade_journal.jsonl"
 
